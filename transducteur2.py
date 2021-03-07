@@ -11,7 +11,7 @@ noise1 =   2*np.sin(2*np.pi*4*t)
 noise2 =   1*np.sin(2*np.pi*10*t+100)
 noise3 =   1*np.sin(2*np.pi*13*t+3)
 noise4 =   1*np.cos(2*np.pi*13*t+20)
-output = son*square + (noise1 +noise2 + noise3 + noise4)
+output = 4+son*square + (noise1 +noise2 + noise3 + noise4)
 trans = son*square + 0.2*(noise1 +noise2 + noise3 + noise4)
 detect_crete = 11 + np.sin(t)/np.sin(t)
 
