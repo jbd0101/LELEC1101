@@ -5,7 +5,7 @@ from scipy import signal
 
 t = np.linspace(0, 4, 1000, endpoint=True)
 
-son = 0.25*np.sin(2*np.pi*15*t)
+son = 14*np.sin(2*np.pi*15*t)
 square = 0.5*(signal.square(2*np.pi*t)+1)
 
 plt.figure(1)
